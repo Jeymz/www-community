@@ -162,12 +162,12 @@
       "type": "DAST"
    },
    {
-      "title": "Bearer",
-      "url": "https://www.bearer.com",
+      "title": "Bearer CLI",
+      "url": "https://github.com/bearer/bearer",
       "owner": "Bearer",
-      "license": "Commercial",
-      "platforms": "SaaS or On-Premises",
-      "note": "Map sensitive data flows and identify security risks such as unauthorized data flow, missing encryption, unauthorized access, and more.",
+      "license": "Open Source or Free",
+      "platforms": "CLI on Windows, MacOS, Linux, Docker,  CI/CD integration",
+      "note": "Developer-first Static Application Security Testing (SAST) tool that automates threat modelling, allows native filtering and prioritization of security risks using sensitive data flow analysis. Supports Ruby, JavaScript, and TypeScript with more coming soon.",
       "type": "SAST"
    },
    {
@@ -855,15 +855,6 @@
       "type": "SAST"
    },
    {
-      "title": "Deep Dive",
-      "url": "https://discotek.ca/deepdive.xhtml",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Byte code analysis tool for discovering vulnerabilities in Java deployments (EAR, WAR, JAR).",
-      "type": "SAST"
-   },
-   {
       "title": "Enlightn",
       "url": "https://www.laravel-enlightn.com/",
       "owner": "Enlightn Software",
@@ -963,15 +954,6 @@
       "type": "SAST"
    },
    {
-      "title": "LGTM",
-      "url": "https://lgtm.com/help/lgtm/about-lgtm",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "A free for open source static analysis service that automatically monitors commits to publicly accessible code in Bitbucket Cloud, GitHub, or GitLab. Supports C/C++, C\\#, Go, Java, JavaScript/TypeScript, Python.",
-      "type": "SAST"
-   },
-   {
       "title": "MobSF",
       "url": "https://mobsf.github.io/Mobile-Security-Framework-MobSF/",
       "owner": null,
@@ -1040,7 +1022,16 @@
       "owner": null,
       "license": "Open Source or Free",
       "platforms": null,
-      "note": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. No compilation needed to scan source code. Supports Go, Java, JavaScript, JSON,Python, TypeScript, and more.",
+      "note": "Semgrep is a fast, open-source, static analysis engine for finding bugs, detecting vulnerabilities in third-party dependencies, and enforcing code standards. Semgrep analyzes code locally on your computer or in your build environment: code is never uploaded.",
+      "type": "SAST"
+   },
+   {
+      "title": "Semgrep Supply Chain",
+      "url": "https://semgrep.dev/products/semgrep-supply-chain",
+      "owner": null,
+      "license": "Commercial",
+      "platforms": null,
+      "note": "Semgrep Supply Chain’s reachability analysis lets you quickly find and remediate the 2% of dependency vulnerabilities that are actually reachable.",
       "type": "SAST"
    },
    {
@@ -1050,15 +1041,6 @@
       "license": "Open Source or Free",
       "platforms": null,
       "note": "A free open-source DevSecOps platform for detecting security issues in source ode and dependencies. It supports a broad range of languages and CI/CD pipelines by bundling various open source scanners into the pipeline.",
-      "type": "SAST"
-   },
-   {
-      "title": "Sink Tank",
-      "url": "https://discotek.ca/sinktank.xhtml",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": null,
-      "note": "Java byte code static code analyzer for performing source/sink (taint) analysis.",
       "type": "SAST"
    },
    {
@@ -1095,15 +1077,6 @@
       "license": "Commercial",
       "platforms": null,
       "note": "REST API security platform that includes Security Audit (SAST), dynamic conformance scan, runtime protection, and monitoring.",
-      "type": "SAST"
-   },
-   {
-      "title": "Application Inspector",
-      "url": "https://www.ptsecurity.com/ww-en/products/ai/",
-      "owner": "Positive Technologies",
-      "license": "Commercial",
-      "platforms": null,
-      "note": "combines SAST, DAST, IAST, SCA, configuration analysis and other technologies, incl. unique abstract interpretation; has capability to generate test queries (exploits) to verify detected vulnerabilities during SAST analysis; Supported languages include: Java, C\\#, PHP, JavaScript, Objective C, VB.Net, PL/SQL, T-SQL, and others.",
       "type": "SAST"
    },
    {
@@ -1221,15 +1194,6 @@
       "license": "Commercial",
       "platforms": null,
       "note": "Capable of identifying vulnerabilities and backdoors (undocumented features) in over 30 programming languages by analyzing source code or executables, without requiring debug info.",
-      "type": "SAST"
-   },
-   {
-      "title": "ECG",
-      "url": "https://ecg.voidsec.com/",
-      "owner": "VoidSec",
-      "license": "Commercial",
-      "platforms": null,
-      "note": "SaaS TCL Static Source Code Analysis Tool able to detect real and complex security vulnerabilities in TCL/ADP source-code. Discovered vulnerabilities will be mapped against the OWASP top 10 vulnerabilities.",
       "type": "SAST"
    },
    {
@@ -1410,15 +1374,6 @@
       "license": "Open Source or Free",
       "platforms": "Windows",
       "note": "ASP, ASP.NET, C\\#, Java, Javascript, Perl, PHP, Python, Ruby, VB.NET, XML",
-      "type": "SAST"
-   },
-   {
-      "title": "DevBug",
-      "url": "http://www.devbug.co.uk",
-      "owner": null,
-      "license": "Open Source or Free",
-      "platforms": "Web Based",
-      "note": "PHP",
       "type": "SAST"
    },
    {
@@ -1674,15 +1629,6 @@
       "type": "SAST"
    },
    {
-      "title": "Xanitizer",
-      "url": "https://www.xanitizer.com/",
-      "owner": "Xanitizer",
-      "license": "Commercial",
-      "platforms": "CLI and plugin integration",
-      "note": "A SAST tool for Java, Scala, and JavaScript/TypeScript, mainly via taint analysis. Per this pricing page, it is free for Open Source projects if you contact the vendor.",
-      "type": "SAST"
-   },
-   {
       "title": "CoGuard",
       "url": "https://www.coguard.io/",
       "owner": "Heinle Solutions Inc.",
@@ -1852,5 +1798,32 @@
       "platforms": "SaaS or On-Premises",
       "note": "Automatically finds and fixes application vulnerabilities in source code. Supports .NET, ASP, Android, C and C++, ECMAScript, Go, iOS, Java, PHP, Pytohn, Ruby, and Visual Basic applications.",
       "type": "SAST"
+   },
+   {
+      "title": "OpenApi Security",
+      "url": "https://openapi.security",
+      "owner": "Escape",
+      "license": "Free",
+      "platforms": "SaaS",
+      "note": "Free. No account required.",
+      "type": "DAST"
+   },
+   {
+      "title": "Vulners",
+      "url": "https://vulners.com/plugins",
+      "owner": "Vulners Inc",
+      "license": "Commercial or Free",
+      "platforms": "Linux / Windows / Plugins / SaaS",
+      "note": "SAST and DAST software vulnerability scanner based on the Vulners database. Including different integrations for administration and security tools, such as NMAP, Burp, Ansible and more.",
+      "type": "DAST"
+   },
+   {
+      "title": "Pentest-Tools.com Website Scanner",
+      "url": "https://pentest-tools.com/website-vulnerability-scanning/website-scanner",
+      "owner": "Pentest-Tools.com",
+      "license": "Commercial or Free",
+      "platforms": "SaaS",
+      "note": "Finds vulnerabilities such as XSS (testing using real browsers), Server-Side Template Injection, Code Injection (with out of band detection) and other OWASP Top 10, and more high-risk vulnerabilities. Even newer vulnerabilties such as Client-Side Prototype Pollution are included.",
+      "type": "DAST"
    }
 ]

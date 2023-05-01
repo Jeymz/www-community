@@ -282,6 +282,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 
 | Name | Owner | Licence | Platforms |
 | ---- | ----- | ------- |---------- |
+| [Scantist SCA] | Scantist | Freemium | Cross Platform / SaaS |
 | [GitHub SCA] | GitHub | Freemium | SaaS |
 | [Black Duck Hub] | Synopsys | Commercial | Cross Platform |
 | [Bytesafe] | Bytesafe | Freemium | SaaS |
@@ -318,6 +319,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Renovate] | Key Location | Open Source | SaaS |
 | [Retire.js] | RetireJS Project | Open Source | Cross Platform |
 | [Snyk] | Snyk | Commercial / Freemium | SaaS |
+| [Software Health Indicator] | YourSky.blue | Commercial / Freemium | SaaS |
 | [SOOS] | SOOS | Commercial / Freemium | SaaS |
 | [Veracode SCA] | Veracode | Commercial | Cross Platform / SaaS |
 | [VulnDB] | Risk Based Security | Commercial	| SaaS |
@@ -325,6 +327,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 | [Vigilant Ops InSight] | Vigilant Ops | Commercial | Cross Platform / SaaS |
 | [Xray] | JFrog | Commercial | Cross Platform |
 
+[Scantist SCA]: https://scantist.com/
 [Bytesafe]: https://bytesafe.dev/
 [Bytesafe Dependency Checker]: https://bytesafe.dev/dependency-checker/javascript/
 [GitHub SCA]: https://docs.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on/
@@ -357,6 +360,7 @@ and legal teams an opportunity to create solutions for healthy open source usage
 [Prisma Cloud]: https://www.paloaltonetworks.com/prisma/cloud
 [Renovate]: https://renovatebot.com/
 [Snyk]: https://snyk.io/
+[Software Health Indicator]: https://software-health-indicator.com/
 [SOOS]: https://soos.io/
 [Veracode SCA]: https://www.veracode.com/products/software-composition-analysis
 [Nexus IQ]: https://www.sonatype.com/

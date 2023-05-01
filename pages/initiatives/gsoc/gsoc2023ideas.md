@@ -7,7 +7,8 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 
 # {{page.title}}
 
-[ZAP](#owaspzap) &bull; [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model)
+[ZAP](#owaspzap) &bull; [Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [Maryam](#owaspmaryam) &bull; [SecureTea](#owasp-securetea) &bull; [PyGoat](#owasp-pygoat) &bull; [RiskAssessmentFramework](#owasp-risk-assessment-framework) &bull; [Juice Shop](#owaspjuiceshop) &bull; [OWASP WrongSecrets](#owasp-wrongsecrets) &bull; [OWASP DevSecOps Maturity Model](#owaspdevsecops-maturity-model) &bull; [OWASP secureCodeBox](#owasp-securecodebox) &bull; [OWASP ModSecurity Core Rule Set](#owasp-modsecurity-core-rule-set) &bull; [OWASP Nettacker](#owasp-nettacker)
+
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -22,7 +23,7 @@ permalink: /initiatives/gsoc/gsoc2023ideas
 ![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
 ![Not recommended for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-not%20recommended-red)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -59,7 +60,7 @@ Import Postman API definitions into ZAP as per [#6960](https://github.com/zaprox
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
 Import PCAP/PCAPNG Files into ZAP as per [#4812](https://github.com/zaproxy/zaproxy/issues/4812)
 
@@ -77,7 +78,7 @@ Create a new browser extension using Type Script which will allow the user to re
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -101,7 +102,7 @@ OWASP BLT is a _bug-hunting & logging_ tool which allows users and companies to 
 
 ##### Explanation of Ideas
 You can chose to work on one or a combination of ideas depending on the difficulty!
-* Crypto - create a proof of stake coin called BUG
+* Smart Contract - create an Ethereum smart contract to issue a token when a bug is found
 * Flutter - 
 	- Add designs for a dark theme in the Figma file, then implement a generic theme manager for future themes.
 	- Start with app internationalization and localization (l10n).
@@ -121,10 +122,11 @@ You can chose to work on one or a combination of ideas depending on the difficul
 ##### Getting Started
 
 * [BLT Core](https://github.com/owasp/blt/)
+* [BLT Flutter](https://github.com/OWASP/BLT-Flutter)
 
 #### Expected Results
 
-* Proof of stake coin on the testnet and mainnet.
+* Integrated Ethereum smart contract that issues a token when a bug is found and verifed.
 * Release Flutter app on App Store and Play Store.
 * Implementation of private issues reporting.
 * Update of browser plugins to support showing bugs on relative sites in a secure way
@@ -139,15 +141,12 @@ Reach out to us on Slack to discuss further on the scope, changes required, _or 
 
 * Python / Django for Backend
 * Flutter for Mobile app
-* Blockchain / Bitcoin clone for the coin
+* Smart contract development
 * Some knowledge of UI designing for design related ideas.
 
 ##### Mentors
 * Donnie on slack (lead mentor)
 * [Aryan Ranjan](mailto:aryan_r@ch.iitr.ac.in) - Flutter and Django Mentor
-* [Sourav Badami](mailto:sourav.badami@owasp.org) - Django Mentor  
-* Rahul Badami - Payments Mentor  
-* [Ankit Choudhary](mailto:ankitchoudhary202.ac@gmail.com) - Flutter Mentor  
 
 ### [OWASP Maryam](https://owasp.org/www-project-maryam/)
 
@@ -159,7 +158,7 @@ Please see [Development Guide](https://github.com/saeeddhqan/maryam/wiki/Develop
 
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 
 Implement a web interface for Iris module with JQuery. The interface is somehow like www.qwant.com.
 
@@ -180,7 +179,7 @@ implementation.
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -218,7 +217,7 @@ The OWASP SecureTea Project provides a one-stop security solution for various de
 - Angular
 
 ##### Mentor
-* [Rejah Rehim](mailto:rejah.rehim@owasp.org)
+* [Ardi](mailto:pakdesawangan@gmail.com)
 * [Ade Yoseman](mailto:edikdoank@gmail.com)
 
 ### [OWASP PyGoat](https://owasp.org/www-project-pygoat/)
@@ -261,7 +260,7 @@ The OWASP Risk Assessment Framework consist of Dynamic application security test
 
 ![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
-- Building API Scanner and Integrated other scanner (OWASP ZAP, etc)
+- Building API Scanner and Integrated other scanners
 - Add Vulnerabilities based on OWASP Top 10 - 2021, CVE Mitre, SANS 25 Top error also ISO 27k
 - Integrated to other pentest tool
 - Scheduled scan
@@ -327,7 +326,7 @@ start failing from outdated tooling in general and specifically unsupported old 
 is currently running [on AppVeyor](https://ci.appveyor.com/project/bkimminich/pwning-juice-shop) whereas all other Juice Shop components are built with GitHub Actions.
 
 With well over 12,000 readers on LeanPub alone, the eBook is definitely a cornerstone of Juice Shop's success, so it should receive a long-overdue
-renewal of its technbology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
+renewal of its technology stack. This includes a modern and future-proof authoring format (that still supports both online-reading and eBook export) as well
 as moving the CI/CD pipeline over to GitHub.
 
 ###### Add Web3 specific hacking and coding challenges
@@ -363,7 +362,7 @@ Could maybe even techniques from banking fraud detection or actual game developm
 ![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
 ![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
 
-![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
 ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
 ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
 
@@ -469,6 +468,7 @@ To receive early feedback please:
 - [Comprehensive activity view](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/192) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
 - [Team-based asessment](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/211) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
 - [Enhancement of diagram](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/183) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
+- Your idea
 
 ##### Large Feature Pack for the Application
 ![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
@@ -477,13 +477,315 @@ To receive early feedback please:
 - [Team-based asessment](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/211) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
 - [Enhancement of diagram](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/183) ![Difficulty: Medium](https://img.shields.io/badge/difficulty-easy-green)
 - [Adding of graph support](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/210) ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
-- [Adding of tags](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/212) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-yellow)
+- [Adding of tags](https://github.com/wurstbrot/DevSecOps-MaturityModel/issues/212) ![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+- Your idea
 
 #### Prerequisites
 - Angular for application
-- OpenSource contributions to OpenSource projects
+- Open Source contributions to Open Source projects
 
 ##### Mentors
 Reach out to us on Slack to discuss these and other ideas!
 
 - [Timo Pagel](mailto:timo.pagel@owasp.org)
+
+### [OWASP OWTF](https://owasp.org/www-project-owtf/)
+
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+##### Explanation of Ideas
+
+- Refactor and complete the web interface ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Update plugins to new recon, discovery and attack tools ![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Design & implement deployment architecture ![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+##### Getting Started
+
+Repositories:
+
+- [OWTF](https://github.com/owtf/owtf)
+- [OWTF Docker](https://github.com/owtf/owtf-docker)
+- [OWTF Python client](https://github.com/owtf/owtf-python-client)
+
+Please use the repositories' issue tracker, GitHub discussions, and don't forget to read the [contributing guide](https://github.com/owtf/owtf/blob/master/CONTRIBUTING.md). Join the community at #owtf on OWASP [Slack](https://owasp.slack.com/) and share your questions, project ideas.
+
+#### Knowledge Prerequisites
+
+- Terraform for infra as code
+- Python for application
+- React/React ecosystem for application frontend
+- Kubernetes/helm for infrastructure deployment
+- Basic knowledge of application security, tools used in bug bounty style hunting
+
+##### Mentors
+
+- [Viyat Bhalodia](mailto:viyat.bhalodia@owasp.org)
+- [Abraham Aranguran](mailto:Abraham.Aranguren@owasp.org)
+
+### [OWASP secureCodeBox](https://www.securecodebox.io)
+
+secureCodeBox is a kubernetes based, modularized toolchain for continuous security scans of your software project.
+The secureCodeBox comes with many different scanners officially integrated (from Amass to Zap) and integration 
+with vulnerability management backends like DefectDojo.
+
+To receive early feedback please:
+- put your proposal on Google Docs and submit it to the OWASP
+  Organization on Google's GSoC page in "Draft Shared" mode.
+- Please pick "securecodebox" as Proposal Tag to make them easier to find
+  for us. Thank you!
+
+##### Explanation of Ideas
+
+###### Rewrite DefectDojo Hook in Go(lang)
+
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-yellow)
+
+The current implementation of our [DefectDojo hook](https://github.com/secureCodeBox/secureCodeBox/tree/main/hooks/persistence-defectdojo) is written in Java.
+As the remainder of the project is written in Go & JavaScript the code does not fit into the remainder of the project and suffers from typical Java problems 
+like a comparatively large memory footprint and slow boot times.
+
+The goals of the project are:
+
+- moving the implementation to a modern Go implementation
+- extracting the DefectDojo api calls to reusable golang library
+- expanding end-to-end testability of the hook with a real DefectDojo instance in the CI pipeline
+
+###### Add a secureCodeBox CLI (scbctl)
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-yellow)
+
+The primary interface to interact with the secureCodeBox is through it's Custom Resources (CRs) in the Kubernetes API.
+Writing the resource (e.g. [Scans](https://www.securecodebox.io/docs/scanners/amass#examplecom)) is generally not hard but can be cumbersome as the require the creation of a new file / multi line string in the command line.
+
+To make these interactions easier to use and more fun, a custom (but optional) secureCodeBox CLI should help by automatically connecting to the Kubernetes API.
+
+- create a new command line client which connects to the Kubernetes API and interacts with the CRs of the secureCodeBox
+- write tests & including integration / e2e test and the CI pipeline (GitHub Actions)
+
+More context & information are listed in the [GitHub Issue](https://github.com/secureCodeBox/secureCodeBox/issues/189)
+
+###### Your own idea
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Preferred for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-preferred-green)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+You have an awesome idea to improve the OWASP secureCodeBox?
+We'd love to hear it, please reach out via email / owasp slack / github to ensure that the idea fits into the project. :)
+
+##### Getting started
+
+* Make yourself familiar with the project by going through our HowTo guides which will guide you through different parts of the secureCodeBox.
+* Make sure that you have a solid golang knowledge to be able to complete the two proposed project.
+* Get in touch with
+  [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) to discuss any
+  of the listed or your own idea for GSoC!
+
+##### Mentors
+
+* [Jannik Hollenbach](mailto:jannik.hollenbach@owasp.org) - OWASP secureCodeBox Core Team
+* [Robert Felber](mailto:robert.seedorff@owasp.org) - OWASP secureCodeBox Project Lead
+
+### [OWASP ModSecurity Core Rule Set](https://coreruleset.org)
+
+The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts.
+
+#### Getting Started
+
+* Familiarize yourself with the project and its [basics](https://coreruleset.org/docs). Make sure you understand core concepts such as anomaly scoring, paranoia levels and false positives.
+* Check out the [CRS Sandbox](https://coreruleset.org/docs/development/sandbox/)
+* Check out the separate CRS GSoC [wiki page](https://github.com/coreruleset/coreruleset/wiki/Google-Summer-of-Code-2023)
+* Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #coreruleset
+
+#### CRS 💡 #1
+
+![Preferred for "Medium" GSoC 2032 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+#### CRS Transformations review
+
+##### Summary
+
+Systematic review of transformations, develop a guideline how to transform which parameters and in which order, implement the necessary changes
+
+##### Description
+
+This is one for the nerds, or for somebody who is not afraid to dig into the hairy details of language encodings and their implementation. The ModSecurity SecLang rule language that CRS uses comes with a few dozen of transformation that can help to simplify payloads that make it easier to detect attacks. Think of removing white space or perform base64 decoding. CRS uses this, but we have to admit in an not overly systematic way. So what we would need is somebody who looks at the various options, looks at frequent attacks and tells us which transformations / decodings should be used and in which situation, so we can follow this guideline in a systematic way.
+
+##### Expected Outcomes
+
+- A written guideline on how to transform which parameters
+  - include the corresponding attacks if needed
+  - and the precise order for all combinations based on the attack
+- After discussion and approval, implement the necessary changes in the CRS
+
+##### Skills required/preferred
+
+- Good writing skills
+- Basic knowledge about text conversion functions and Web encodings
+
+##### Mentors
+
+The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
+
+* [Christian Folini](mailto:christian.folini@owasp.org)
+* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+
+#### CRS 💡 #2
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+##### SecLanguage platforms performance analysis
+
+##### Summary
+
+Systematic performance analysis on various SecLanguage platforms: Costs of operators, transformations and variables (depending on size of payload / varname+value and number of variables)
+
+##### Description
+
+This is a research project aiming to do a written report about the performance of the essential part of the SecRule language on various implementations, namely ModSecurity 2, libModSecurity 3, Coraza. The ModSecurity Handbook does not really go into enough detail of the performance impact of those constructs that CRS uses as its work horses. So we kind of depend on a gut feeling and a proper base and guideline would be very beneficial.
+
+Without exaggerating too much, you need to keep in mind that CRS is running on millions of servers, some of them with hundreds of millions of requests per day (or more). If you now imagine that we could save some CPU cycles when we optimize the rules, then there is a big, big potential to good. Also to the planet in resource consumption.
+
+##### Expected Outcomes
+
+- Define a framework for testing performance for SecLanguage platforms
+- Implement the framework so it can be used for testing 
+- Write documentation on usage and techniques used to measure performance for the various constructs
+
+##### Skills required/preferred
+
+- Good writing skills
+- Performance testing knowledge
+- Basic programming language skills to implement the proposed framework
+
+##### Mentors
+
+The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
+
+* [Christian Folini](mailto:christian.folini@owasp.org)
+* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+![Difficulty: Hard](https://img.shields.io/badge/difficulty-hard-red)
+
+#### CRS 💡 #3
+
+![Preferred for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Possible for "Large" GSoC 2023 project](https://img.shields.io/badge/large%20size%20(~350h)-possible-yellow)
+
+#### WAF Performance Testing Framework
+
+##### Summary
+
+Create a performance testing framework i. e. something like regression tests but for performance, so we can see impact on performance of every pull request.
+
+##### Description
+
+A frequent problem when developing new rules is their performance impact. Experience shows you do not really know the performance of a rule until you have tried it out. If you want to test it against a variety of payloads it's quite a lot of manual work and since we do not have a documented test procedure, it's all a bit random.
+
+So the idea is to design a facility (typically a docker container) that is being configured with a rule and then used to test this rule with a variety of payloads and returns a standard report about the performance of the rule. Bonus points if multiple engines are covered (ModSecurity 2, libModSecurity 3, Coraza, ...)
+
+##### Expected Outcomes
+
+- Define a framework for testing performance for a generic WAF
+- Implement the framework in a way that can be run in a pipeline for testing changes on configuratios/rules
+- Write documentation on usage and techniques used to measure performance
+
+##### Skills required/preferred
+
+- Good writing skills
+- Some performance testing knowledge would be useful
+- Basic programming language skills to implement the proposed framework
+
+##### Mentors
+
+The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
+
+* [Christian Folini](mailto:christian.folini@owasp.org)
+* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+
+#### CRS 💡 #4
+
+![Preferred for "Small" GSoC 2023 project](https://img.shields.io/badge/small%20size%20(~100h)-preferred-green)
+![Possible for "Medium" GSoC 2023 project](https://img.shields.io/badge/medium%20size%20(~175h)-possible-yellow)
+
+##### New plugin for &lt;enter-your-cool-idea&gt;
+
+##### Summary
+
+Write new plugins to prevent attacks.
+
+##### Description
+
+We have recently added plugin functionality to CRS. The [Plugin Registry](https://github.com/coreruleset/plugin-registry) has a decent overview of existing plugins and this [blog post](https://coreruleset.org/20220209/introducing-the-fake-bot-plugin/) does a good job describing a very cool plugin for inspiration.
+
+Think about writing another cool plugin to complement the repository.
+
+##### Expected Outcomes
+
+- Expose your need for a new plugin that complements existing work in the CRS
+- Create the plugin and document it
+
+##### Skills required/preferred
+
+- Good writing skills
+- Knowledge about the problem your are trying to solve with this plugin ;)
+
+##### Mentors
+
+The CRS team will assign a mentor to contributors. In the meantime, the following two CRS project leaders will be your contacts:
+
+* [Christian Folini](mailto:christian.folini@owasp.org)
+* [Felipe Zipitría](mailto:felipe.zipitria@owasp.org)
+
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-easy-green)
+
+### [OWASP Nettacker](https://owasp.org/www-project-nettacker/)
+
+OWASP Nettacker is a Modular Automated Penetration Testing/ Information gathering Framework and Vulnerability Scanner fully written in Python. Nettacker can run a variety of scans discovering subdomains, open ports, services, vulnerabilities, misconfigurations, default credentials.
+
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+![Preferred for "Medium" GSoC 2032 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+
+##### Explanation of Ideas
+
+- create comparison functionality for comparing the current scan with another scan using scanID
+- fix scan engine multi-threading/queuing issues
+- improve WebUI / add dashboard
+- implement SSL/TLS modules to restore the functionality we had in Nettacker v0.0.2
+- add DefectDojo integration / output report format
+- add SARIF output report format
+
+##### Getting Started
+
+Repositories:
+
+- [OWASP Nettacker on OWASP GitHub](https://github.com/OWASP/Nettacker)
+- Join OWASP Slack and contact us on channel [#project-nettacker](https://app.slack.com/client/T04T40NHX/CQZGG24FQ)
+
+##### Knowldege  Requirements
+
+- Python
+- Flask
+- HTML/CSS/JavaScript
+- previous vulnerability scanning/bug bounty hunting experience
+
+##### Mentors
+
+* [Sam Stepanyan](mailto:sam.stepanyan@owasp.org)
+* [Ali Razmjoo](mailto:ali.razmjoo@owasp.org)
